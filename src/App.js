@@ -23,6 +23,7 @@ class App extends Component {
   };
   render() {
     const recipes = this.state.recipes;
+    console.log(recipes);
     return (
       <div className="App">
         <Titile />

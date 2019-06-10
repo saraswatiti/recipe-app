@@ -13,7 +13,7 @@ const Recipes = props => (
               <div className="content-wrap">
                 <p className="author">
                   <Link to={{ pathname: `${recipe.publisher_url}` }}>
-                    <i class="fa fa-user-circle-o" aria-hidden="true" />
+                    <i className="fa fa-user-circle-o" aria-hidden="true" />
                     {recipe.publisher}
                   </Link>
                 </p>
@@ -29,8 +29,11 @@ const Recipes = props => (
                       state: { recipe: recipe.title }
                     }}
                   >
-                    View Recipe{" "}
-                    <i class="fa fa-arrow-circle-o-right" aria-hidden="true" />
+                    View Recipe
+                    <i
+                      className="fa fa-arrow-circle-o-right"
+                      aria-hidden="true"
+                    />
                   </Link>
                 </p>
               </div>

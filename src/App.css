@@ -5,6 +5,7 @@ img {
   display: block;
   width: 100%;
 }
+.list-item-group,
 .recipe-title-wrap,
 .content-wrap p,
 .entry-title,
@@ -116,6 +117,30 @@ a {
 }
 .img-wraper .btn {
   margin-top: 30px;
+}
+.col-break {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.img-wraper img,
+.detail-wrap {
+  flex-grow: 1;
+  object-fit: none;
+}
+.list-group {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.list-item-group {
+  padding: 15px 20px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+}
+.detail-wrap h3 {
+  text-align: left;
+  font-weight: 400;
 }
 .btn {
   display: inline-block;
